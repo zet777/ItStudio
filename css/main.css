@@ -36,7 +36,7 @@ color: #FFFFFF;
 	width: 80%;
 	display: flex;
 	flex-direction: row-reverse;
-	
+
 }
 a{
 	text-decoration: none!important;
@@ -48,7 +48,7 @@ a{
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 20px;
+	line-height: 60px;
 	color: #fff!important;
 	margin-right: 30px;
 }
@@ -65,7 +65,7 @@ a{
 .menu-nav a::before {
 	content: '';
 	bottom: 0;
-	top:50px;
+	top:33px;
 	right: 0;
 	position: absolute;
 	width: 0%;
@@ -96,7 +96,7 @@ a{
     justify-content: center;
     flex-direction: column;
     height: 100%;
-	height: 95%;
+	height: 90%;
 }
 .sceen-one__container>p:first-child{
 font-family: Montserrat;
