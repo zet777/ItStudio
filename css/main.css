@@ -152,8 +152,7 @@ a{
 .screeen-two {
 	align-items: center;
 }
-.screen-two__container{
-	margin-top: 50px;
+.screen-two__container-one{
 	width: 100%;
 	
 	display: -webkit-box;
@@ -170,7 +169,7 @@ a{
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
-.screen-two__container>p:first-child{
+.screen-two__container-one>p:first-child{
 
 	font-weight: bold;
 	font-size: 36px;
@@ -179,7 +178,7 @@ a{
 	color: #323232;
 
 }
-.screen-two__container>p:nth-child(2){
+.screen-two__container-one>p:nth-child(2){
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 53px;
@@ -187,7 +186,7 @@ a{
 	color: #323232;
 
 }
-.screen-two__container>p:nth-child(3){
+.screen-two__container-one>p:nth-child(3){
 	max-width: 730px;
 }
 
@@ -215,6 +214,7 @@ width: 222px;
 .screen-two__progect{
     justify-content: center;
     display: flex;
+    margin-bottom: 50px;
 }
 .screen-two__progect__container{
 	display: inline-flex;
@@ -231,4 +231,34 @@ width: 222px;
     align-items: center;
     border-radius: 55px;
     margin-right: 30px;
+}
+
+.screen-two__container-one{
+	height: 50vh;
+}
+.screen-two__container-two{
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	flex-direction: row;
+	height: 50vh;
+	background-color: #F6F6F8;
+	justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.screen-two__container-two-left{
+	max-width: 500px;
+	max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	
+}
+.screen-two__container-two-right{
+	max-width: 500px;
+	max-height: 400px;
 }
