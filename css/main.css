@@ -69,12 +69,11 @@ h2{
 
 }
 a{
-	text-decoration: none!important;
 	position: relative;
 }
 
 .menu-nav__link{
-	
+	text-decoration: none!important;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 60px;
@@ -230,7 +229,9 @@ width: 222px;
 }
 
 .screen-two__container-one{
-	height: 50vh;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
 }
 .screen-two__container-two{
 	display: flex;
@@ -239,10 +240,12 @@ width: 222px;
 	display: -ms-flex;
 	display: -o-flex;
 	flex-direction: row;
-	height: 50vh;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	background-color: #F6F6F8;
 	justify-content: center;
-    margin-bottom: 50px;
+  
+
 
 }
 
@@ -258,3 +261,45 @@ width: 222px;
 	max-width: 500px;
 	max-height: 400px;
 }
+.screen-two__container-three{
+	background-color: #F6F6F8;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.inline-flex{
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+}
+
+.inline-flex>div:first-child{
+	margin-right: 15px;
+	
+}	 
+.inline-flex>div:nth-child(2){
+	
+	font-size: 36px;
+	
+}
+.screen-two__container__project{
+	margin-right: 104px;
+}
+.screen-two__container__project span{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	color: #999;
+}
+
+.screen-two__container-three>.screen-two__container__project:last-child{
+	margin-right: 0;
+}
+
