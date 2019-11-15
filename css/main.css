@@ -20,7 +20,25 @@ button{
 	line-height: 20px;
 	text-align: center;
 	color: #FFFFFF;
+	transition: 500ms;
 }
+
+button:hover{
+	background-color: #4985FF;
+	border: none;
+	border-radius: 30px!important;
+	width: 200px;
+	height: 45px;
+	opacity: 1;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
 body{
 	font-family: Montserrat!important;
 	font-style: normal;
@@ -38,7 +56,6 @@ a{
 	text-decoration: none;
 	position: relative;
 }
-
 .garay-text{
 	
 	font-weight: normal;
@@ -67,7 +84,8 @@ a{
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	max-width: 1920px;        
+	max-width: 1920px;   
+	   height: 91vh;
 
 }
 
@@ -75,13 +93,13 @@ a{
 
 
 /* first screen */
+
 .screen-one {
 	background-image: url(../img/screen1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
 
-
+	
 }
 
 
@@ -106,8 +124,9 @@ a{
 	line-height: 60px;
 	color: #fff!important;
 	margin-right: 30px;
+	transition: 500ms;
 }
-
+ 
 
 .menu-nav a.top::before {
 	top: 0;
@@ -160,3 +179,6 @@ a{
 
 }
 
+.screen-one__container__main-screen{
+	text-align: center;
+}
