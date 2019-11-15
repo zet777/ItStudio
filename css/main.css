@@ -306,3 +306,7 @@ width: 222px;
 	margin-right: 0;
 }
 
+.screen-two__container-two-right img{
+	max-width: 255px;
+}
+
