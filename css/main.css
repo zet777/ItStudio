@@ -60,6 +60,9 @@ a{
 .color-gray{
 	color: #999999!important;
 }
+.color-dark{
+	color:#323232!important;
+}
 .inline-block{
 	display: inline-block;
 }
@@ -92,19 +95,19 @@ a{
 	background-image: url(../img/screen1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-  	animation: scale 5s infinite ease-in-out;
+  	animation: scale 25s infinite ease-in-out;
   	animation-direction: alternate;
 
 }
 @keyframes scale {
   0% {
-    background-size: 100%;
+    background-size: 110%;
   }
   100% {
-    background-size: 150%;
+    background-size: 160%;
   }
   0% {
-    background-size: 100%;
+    background-size: 110%;
   }
 }
 
@@ -189,3 +192,15 @@ a{
 	margin-top: 220px;
 	margin-bottom: auto;
 }
+ 
+ /*Second screen*/
+
+ .screen-two{
+ 	display: flex;
+ 	justify-content: center;	
+ }
+
+ .mobile{
+ 	max-width: 740px;
+ 	text-align: center;
+ }
