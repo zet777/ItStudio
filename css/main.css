@@ -224,7 +224,7 @@ a{
 /*Second screen*/
 
 .screen-two{
-	background-color: #E5E5E5;
+	background-color: #fff;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -267,3 +267,30 @@ a{
 .third-screen{
 	background-color: #F6F6F8;
 }
+.third-screen__container__div-right{
+	background-image: url(../img/Rectangle2.png);
+	background-size: contain;
+	width: 500px;
+	height: 400px;
+	
+
+}
+.third-screen__container__div-left{
+	
+	max-width: 500px;
+	max-height: 400px;
+}
+
+.third-screen__container{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	padding-top: 100px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+
+
