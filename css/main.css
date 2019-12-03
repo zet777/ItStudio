@@ -348,3 +348,16 @@ a{
 .fourth-screen__white{
 	height: 50vh;
 }
+
+.wrapper-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.wrapper-header>button{
+	align-self: center;
+}
+.wrapper-header>div{
+	width: 540px;
+}
