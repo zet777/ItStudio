@@ -67,6 +67,8 @@ a{
 	text-decoration: none;
 	position: relative;
 }
+
+
 .color-gray{
 	color: #999999!important;
 }
@@ -99,7 +101,13 @@ a{
 	max-width: 1920px;   
 }
 
-
+.container__flex-row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
 
 
 /* first screen */
@@ -279,6 +287,7 @@ a{
 	
 	max-width: 500px;
 	max-height: 400px;
+	margin-right: 100px;
 }
 
 .third-screen__container{
@@ -292,6 +301,50 @@ a{
 	padding-bottom: 100px;
 	border-bottom: 1px solid #E0E0E0;
 }
+.projects{
+	display: grid;
+    grid-template-columns: 50px 55px;
+    grid-template-rows: 50px;
+    margin-right: 100px;
+    margin-top: 70px;
 
+}
+.container__flex-row .projects:last-child{
+	margin-right: 0;
+}
+.projects__div-three{
+	 grid-column: 1 / 3;
+	 font-weight: normal;
+	 font-size: 16px;
+	 line-height: 25px;
+}
 
+.projects__div-one{
+	align-self: center;
+}
+.projects__div-two{
+	
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 53px;
+	color:#000000;
+}
 
+/*Fourth-screen*/
+.fourth-screen{
+	position: relative;
+}
+.fourth-screen__center{
+	width: 950px;
+	height: 400px;
+	position: absolute;
+    top: 100px;
+    border: 1px solid red;
+}
+.fourth-screen__violet{
+	height: 50vh;
+	background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.fourth-screen__white{
+	height: 50vh;
+}
