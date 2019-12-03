@@ -354,6 +354,8 @@ a{
 
 	display: flex;
 	justify-content: space-between;
+	border-bottom:1px solid #E0E0E0;
+	padding-bottom: 70px;
 
 }
 .wrapper-header{
@@ -381,4 +383,11 @@ a{
 }
 .wrapper-cont__content{
 	margin-top: 30px;
+}
+
+/*Fifth-screen*/
+
+.fifth-screen{
+	background-color: #F6F6F8;
+    margin-top: 140px;
 }
