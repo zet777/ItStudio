@@ -424,3 +424,16 @@ a{
 .fifth-screen__projects-img:last-child{
 	margin-right: 0;
 }
+
+
+/*Six-screen*/
+.six-screen{
+	background-image: url(../img/sixscreen.png);
+	background-repeat: no-repeat;
+
+}
+
+.six-screen_wrapper{
+	align-content: center;
+	justify-content: center;
+}
