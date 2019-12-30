@@ -404,3 +404,23 @@ a{
 	font-size: 16px;
 	line-height: 25px;
 }
+.fifth-screen__projects__wraper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+.fifth-screen__projects-img{
+	width: 255px;
+	height: 255px;
+	background: url(../img/PROJECTS.png);
+	margin-right: 30px;
+	margin-bottom: 30px;
+
+
+
+}
+.fifth-screen__projects-img:last-child{
+	margin-right: 0;
+}
