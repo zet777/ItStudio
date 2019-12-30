@@ -433,7 +433,26 @@ a{
 
 }
 
-.six-screen_wrapper{
+.six-screen__wraper{
 	align-content: center;
 	justify-content: center;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.six-screen__player-wraper{
+	background: url(../img/video.png);
+	width: 970px;
+	height: 430px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-video{
+	    background: none!important;
+	    border:1px solid white;
+}
+
+.button-video__round{
+
 }
