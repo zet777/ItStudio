@@ -439,6 +439,9 @@ a{
 	text-align: center;
 	margin-top: 70px;
 }
+.six-screen__wraper>hr{
+	margin-top: 50px;
+}
 
 .six-screen__player-wraper{
 	background: url(../img/video.png);
@@ -454,5 +457,40 @@ a{
 }
 
 .button-video__round{
+	
+}
+.subscribe-wraper{
+	margin-top: 40px;
+}
+.form-control-subscribe{
+	height: 45px;
+	border-bottom-left-radius: 25px!important;
+	border-top-left-radius: 25px!important;
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
 
+}
+.btn-subscribe{
+	border-bottom-left-radius: 0px!important;
+	border-top-left-radius: 0px!important;
+	box-shadow: 0px 0px 10px #6f6f6f!important;
+}
+.btn-subscribe:hover{
+	border-bottom-left-radius: 0px!important;
+	border-top-left-radius: 0px!important;
+	box-shadow: 0px 0px 10px #6f6f6f!important;
+}
+
+.form-group-footer{
+	padding-top: 15px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+}
+input[placeholder]{
+	padding-left: 15px;
 }
