@@ -122,7 +122,7 @@ a{
 	animation: scale 25s infinite ease-in-out;
 	-webkit-animation-direction: alternate;
 	animation-direction: alternate;
-
+	height: 50vh;
 }
 @-webkit-keyframes scale {
 	0% {
@@ -240,7 +240,8 @@ a{
 	display: flex;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	justify-content: center;	
+	justify-content: center;
+	height: 50vh;	
 }
 
 .mobile{
