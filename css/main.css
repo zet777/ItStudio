@@ -280,6 +280,7 @@ a{
 }
 .third-screen__container__div-right{
 	background-image: url(../img/Rectangle2.png);
+	background-repeat: no-repeat; 
 	background-size: contain;
 	width: 500px;
 	height: 400px;
@@ -518,4 +519,10 @@ footer{
 	flex-direction: row;
 	font-size: 16px;
 	line-height: 20px;
+}
+@media screen and (max-width: 650px) {
+	.services{
+		display: flex;
+		flex-direction: column;
+	}
 }
