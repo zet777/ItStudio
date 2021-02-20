@@ -235,9 +235,13 @@ a{
 	border: solid 1px white;
 	padding: 15px;
 	border-radius: 25px;
+	width: 600px;
 }
 /*Second screen*/
-
+.about__ftg{
+	padding-left: 20px;
+	font-weight: 900;
+}
 .screen-two{
 	background-color: #fff;
 	display: -webkit-box;
