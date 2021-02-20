@@ -231,7 +231,10 @@ a{
 	margin-bottom: auto;
 }
 .about{
-	
+	background: #0070ff96;
+	border: solid 1px white;
+	padding: 15px;
+	border-radius: 25px;
 }
 /*Second screen*/
 
