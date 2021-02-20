@@ -227,7 +227,7 @@ a{
 
 .screen-one__container__main-screen{
 	text-align: center;
-	margin-top: 220px;
+	margin-top: 20px;
 	margin-bottom: auto;
 }
 .about{
@@ -236,6 +236,19 @@ a{
 	padding: 15px;
 	border-radius: 25px;
 	width: 600px;
+	margin-top: 20px;
+}
+.about_logo{
+	background-image: url(../img/logo.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-top: 9px;
+
 }
 /*Second screen*/
 .about__ftg{
