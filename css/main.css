@@ -542,34 +542,48 @@ footer{
 	font-size: 16px;
 	line-height: 20px;
 }
-@media screen and (orientation: landscape) {
-	section{
-		height: 100%;
-	}
-	.screen-one{
-		height: 100%;
-	}
-}
+
+
+
+
+
+
 @media screen and (max-width: 800px){
 	.services{
 		display: flex;
 		flex-direction: column;
 	}
 	.about_logo{
-	width: 350px;
-	height: 350px;
+		width: 350px;
+		height: 350px;
+	}
+	@media screen and (orientation: landscape) {
+		section{
+			height: 100%;
+		}
+		.screen-one{
+			height: 100%;
+		}
 	}
 
 }
 @media screen and (max-width: 479px) {
-  .about_logo{
-	width: 200px;
-	height: 200px;
+	.about_logo{
+		width: 200px;
+		height: 200px;
 	}
 	.about{
 		font-size: .86em;
 	}
 	.screen-one{
 		height: 100%;
+	}
+	@media screen and (orientation: landscape) {
+		section{
+			height: 100%;
+		}
+		.screen-one{
+			height: 100%;
+		}
 	}
 }
