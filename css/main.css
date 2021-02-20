@@ -118,10 +118,10 @@ a{
 	background-image: url(../img/screen1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	-webkit-animation: scale 25s infinite ease-in-out;
+	/*-webkit-animation: scale 25s infinite ease-in-out;
 	animation: scale 25s infinite ease-in-out;
 	-webkit-animation-direction: alternate;
-	animation-direction: alternate;
+	animation-direction: alternate;*/
 	height: 100vh;
 }
 @-webkit-keyframes scale {
