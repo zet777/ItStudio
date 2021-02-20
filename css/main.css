@@ -235,7 +235,7 @@ a{
 	border: solid 1px white;
 	padding: 15px;
 	border-radius: 25px;
-	width: 600px;
+	max-width: 600px;
 	margin-top: 20px;
 }
 .about_logo{
@@ -542,9 +542,22 @@ footer{
 	font-size: 16px;
 	line-height: 20px;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
 	.services{
 		display: flex;
 		flex-direction: column;
+	}
+	.about_logo{
+	width: 350px;
+	height: 350px;
+	}
+}
+@media screen and (max-width: 479px) {
+  .about_logo{
+	width: 200px;
+	height: 200px;
+	}
+	.about{
+		font-size: .86em;
 	}
 }
