@@ -542,7 +542,15 @@ footer{
 	font-size: 16px;
 	line-height: 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (orientation: landscape) {
+	section{
+		height: 100%;
+	}
+	.screen-one{
+		height: 100%;
+	}
+}
+@media screen and (max-width: 800px){
 	.services{
 		display: flex;
 		flex-direction: column;
@@ -551,6 +559,7 @@ footer{
 	width: 350px;
 	height: 350px;
 	}
+
 }
 @media screen and (max-width: 479px) {
   .about_logo{
@@ -559,5 +568,8 @@ footer{
 	}
 	.about{
 		font-size: .86em;
+	}
+	.screen-one{
+		height: 100%;
 	}
 }
