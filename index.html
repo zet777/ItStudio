@@ -7,6 +7,7 @@
 
   <!-- main css -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.min.css">
   <!-- reset css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
   <!-- Bootstrap CSS -->
@@ -33,15 +34,15 @@
     <div class="container">
       
       <div class="about" id="about">
-        <div class="about_logo">
+        <div class="about_logo wow zoomInUp animated">
           
         </div>
-        <p><span class="about__ftg">FinTechGlobal (FTG)</span> – российская компания, созданная в 2015 году. 
+        <p class="slideInLeft animated faster"><span class="about__ftg">FinTechGlobal (FTG)</span> – российская компания, созданная в 2015 году. 
           Мы занимаемся предоставлением высокотехнологичного сервиса на основе RPA 
         по поиску самых выгодных условий обмена криптовалют.</p>  
-        <p> <span class="about__ftg">FTG</span> – обменный сервис, который использует в своей операционной деятельности блокчейн и другие технологии. 
+        <p class="slideInLeft animated faster"> <span class="about__ftg">FTG</span> – обменный сервис, который использует в своей операционной деятельности блокчейн и другие технологии. 
           Выбирая FTG, Вы выбираете традиции профессонлализма.</p>
-          <p><span class="about__ftg">Мы</span> – ориентир вашего успеха и ваш проводник к нему.
+          <p class="slideInLeft animated faster"><span class="about__ftg">Мы</span> – ориентир вашего успеха и ваш проводник к нему.
         Нашее главное преимущество - отличный результат, ведь у нас все под контролем. Можете довериться профессионалам!</p>
         
       </div>
@@ -53,7 +54,7 @@
     <div class="container">
       
       <div class="tera">
-        <div class="about_tera">
+        <div class="about_tera wow zoomInRight animated delay-2s">
           
         </div>
         <p ><span class="about__ftg">TERRA</span> – это  некоммерческий бесплатный благотворительный клуб предпринимателей.</p>  
@@ -245,6 +246,10 @@
 </footer> -->
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../ItStudio/js/wow.js"></script>
+<script>
+    new WOW().init();
+</script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript">
 $(function(){
