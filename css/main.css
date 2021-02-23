@@ -309,7 +309,7 @@ a{
 	border: solid 1px white;
 	padding: 15px;
 	border-radius: 25px;
-	width: 600px;
+	max-width: 600px;
 	margin-top: 20px;
 }
 .mobile{
@@ -599,6 +599,9 @@ footer{
 	.services{
 		display: flex;
 		flex-direction: column;
+	}
+	.job{
+		max-width: 500px;
 	}
 	.about_logo{
 		width: 350px;
