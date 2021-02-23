@@ -206,7 +206,12 @@ a{
 
 }
 
+.container__tera{
+	background: url(../img/tera.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover; 
 
+}
 
 .screen-one__container>p:first-child{
 
