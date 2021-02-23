@@ -122,7 +122,8 @@ a{
 	animation: scale 25s infinite ease-in-out;
 	-webkit-animation-direction: alternate;
 	animation-direction: alternate;*/
-	height: 100vh;
+	height: 100%;
+	padding-bottom: 30px;
 }
 @-webkit-keyframes scale {
 	0% {
@@ -206,12 +207,7 @@ a{
 
 }
 
-.container__tera{
-	background: url(../img/tera.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover; 
 
-}
 
 .screen-one__container>p:first-child{
 
@@ -243,6 +239,14 @@ a{
 	max-width: 600px;
 	margin-top: 20px;
 }
+.tera{
+	background: #0070ff96;
+	border: solid 1px white;
+	padding: 15px;
+	border-radius: 25px;
+	max-width: 600px;
+	margin-top: 20px;
+}
 .about_logo{
 	background-image: url(../img/logo.jpeg);
 	background-size: cover;
@@ -253,6 +257,18 @@ a{
 	margin-right: auto;
 	margin-bottom: 15px;
 	margin-top: 9px;
+
+}
+.about_tera{
+	background-image: url(../img/tera.jpeg);
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 144px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-top: 9px;
+	background-size: contain;
 
 }
 /*Second screen*/
@@ -268,7 +284,7 @@ a{
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	height: 50vh;	
+	height: 100%;	
 }
 
 .mobile{
